@@ -202,5 +202,45 @@
         "technologies": "Unity",
         "link": "https://github.com/NeRrO106/Maze-Runner-Laboratory-Escape",
         "youtube": "youtube.com"
+    },  
+    { 
+        "id": 26, 
+        "title": "Contact Manager", 
+        "description": "A system for managing personal and professional contacts. You can add, edit and search contacts", 
+        "technologies": ["Python"], 
+        "link": "https://https://github.com/NeRrO106/Python-Projects/tree/main/ContactManager", 
+        "youtube": "youtube.com" 
+    },
+    {
+        "id": 27,
+        "title": "Library Manager",
+        "description":"A Python application to manage library books. You can add, edit, search, and borrow books easily.",
+        "technologies": ["Python"],
+        "link": "https://github.com/NeRrO106/Python-Projects/tree/main/Library",
+        "youtube": "youtube.com"
+    },
+    { 
+        "id": 28, 
+        "title": "Note Manager", 
+        "description": "A Python application where you can add, edit, delete, search, and display notes.", 
+        "technologies": ["Python"], 
+        "link": "https://github.com/NeRrO106/Python-Projects/tree/main/NoteManager", 
+        "youtube": "youtube.com" 
+    },
+    { 
+        "id": 29, 
+        "title": "Sales Analyzer", 
+        "description": "A Python application to analyze sales data from CSV files. You can generate sales graphs, calculate average monthly sales, and find the month with the highest sales.", 
+        "technologies": ["Python"], 
+        "link": "https://github.com/NeRrO106/Python-Projects/tree/main/SalesAnalyzer", 
+        "youtube": "youtube.com" 
+    }, 
+    { 
+        "id": 30, 
+        "title": "ToDo List", 
+        "description": "A Python application to manage daily tasks. You can add, remove, display, and save tasks to a CSV file.", 
+        "technologies": ["Python"], 
+        "link": "https://github.com/NeRrO106/Python-Projects/tree/main/ToDoList", 
+        "youtube": "youtube.com" 
     }
   ]
