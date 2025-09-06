@@ -137,19 +137,47 @@
     },
     {
         "id":22,
-        "title": "Website for Guesthouses (unfinished)",
+        "title": "Website for Guesthouses",
         "description": "I have created a website for guesthouses, where users can book rooms for a specific period. I was about to implement an admin panel where rooms can be added and removed, as well as a gallery system for the rooms.",
         "technologies": ["Frontend", "React", "Bootstrap5", "FirebaseDatabase"],
-        "link": "https://github.com/NeRrO106/Website-Pensiune",
+        "link": ["https://github.com/NeRrO106/Website-Pensiune", "https://pensiune-la-munte-demo.netlify.app/"],
         "youtube":"youtube.com"
+    },
+    {
+        "id": 23,
+        "title": "Old Portfolio Website",
+        "description": "The old version of my personal portfolio website. It showcases my projects and skills using a simpler frontend design.",
+        "technologies": ["HTML", "CSS", "JavaScript", "Frontend"],
+        "link": "https://github.com/NeRrO106/Old-Portofolio-Website",
+        "youtube": "youtube.com"
+    },
+
+    {
+        "id": 24,
+        "title": "Candy Studio",
+        "description": "A modern frontend landing page built with responsive design principles, showcasing creative visuals and smooth UI/UX elements.",
+        "technologies": ["HTML", "CSS", "JavaScript", "React", "Frontend"],
+        "link": ["https://github.com/NeRrO106/candy-studio", "https://candystudio.netlify.app/"],
+        "youtube": "youtube.com"
     },
     {
         "id": 20,
         "title": "Restaurant Website",
         "description": "I have created a website for a restaurant that includes a digital menu, an ordering system, and an admin panel where orders can be viewed, and products can be added, deleted, or edited.",
         "technologies": ["FullStack", "React", "HTML5", "CSS3", "Bootstrap5", "Django", "SQL"],
-        "link": ["https://github.com/NeRrO106/ParadoXall", "https://github.com/NeRrO106/ParadoXall-backend"],
+        "link": ["https://github.com/NeRrO106/ParadoXall", "https://github.com/NeRrO106/ParadoXall-backend", "https://restaurant-delivery-test.netlify.app/"],
         "youtube":"youtube.com"
+    },
+    {
+        "id": 25,
+        "title": "Quick Dish",
+        "description": "Quick Dish is a full-stack food ordering application with a role-based login system. Users can register and log in, and based on their role they have access to different features: Admins manage the entire system, Restaurant Managers add or update dishes, Couriers handle deliveries, and Clients can browse the menu, place orders, and track them. The frontend is built with React for a responsive user experience, while the backend (.NET) manages authentication, roles, and database operations.",
+        "technologies": ["React", "HTML", "CSS", "JavaScript", ".NET", "SQLite", "FullStack"],
+        "link": [
+            "https://github.com/NeRrO106/quick_dish_frontend",
+            "https://github.com/NeRrO106/quick_dish_backend"
+        ],
+        "youtube": "youtube.com"
     },
     {
         "id": 21,
