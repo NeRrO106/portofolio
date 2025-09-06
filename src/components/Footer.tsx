@@ -7,34 +7,16 @@ function Footer() {
         </span>
         <div className="flex mt-4 sm:justify-center md:mt-0 space-x-5">
           <a
-            href="#"
+            href="https://www.linkedin.com/in/andrei-cosma-28b720273/"
             className="text-[var(--color-text-secondary)] hover:text-gray-900"
           >
-            Facebook
+            LinkedIn
           </a>
           <a
-            href="#"
-            className="text-[var(--color-text-secondary)] hover:text-gray-900"
-          >
-            Discord
-          </a>
-          <a
-            href="#"
-            className="text-[var(--color-text-secondary)] hover:text-gray-900"
-          >
-            Twitter
-          </a>
-          <a
-            href="#"
+            href="https://github.com/NeRrO106"
             className="text-[var(--color-text-secondary)] hover:text-gray-900"
           >
             GitHub
-          </a>
-          <a
-            href="#"
-            className="text-[var(--color-text-secondary)] hover:text-gray-900"
-          >
-            Dribbble
           </a>
         </div>
       </div>
