@@ -1,3 +1,33 @@
+import htmlImg from "../../img/programming-skills/HTML5_logo_and_wordmark.svg.png";
+import cssImg from "../../img/programming-skills/CSS3_logo_and_wordmark.svg.png";
+import jsImg from "../../img/programming-skills/JavaScript-Logo.png";
+import tsImg from "../../img/programming-skills/Typescript_logo_2020.svg.png";
+import bstImg from "../../img/other-skills-img/Bootstrap_logo.png";
+import tailImg from "../../img/programming-skills/Tailwind_CSS_Logo.svg.png";
+import reactImg from "../../img/programming-skills/React-icon.svg.png";
+import csImg from "../../img/programming-skills/Logo_C_sharp.svg.png";
+import pyImg from "../../img/programming-skills/Python-logo-notext.svg.png";
+import djImg from "../../img/programming-skills/Django-Logo.png";
+import nodeImg from "../../img/programming-skills/node-js-logo-png_seeklogo-273749.png";
+import mysqlImg from "../../img/other-skills-img/mysqlworkbench.png";
+import javaImg from "../../img/programming-skills/java_original_logo_icon_146458.png";
+import cppImg from "../../img/programming-skills/ISO_C++_Logo.svg.png";
+import cImg from "../../img/programming-skills/C_Logo.png";
+import raImg from "../../img/programming-skills/rest-api-icon.png";
+import gitImg from "../../img/other-skills-img/git.png";
+import bashImg from "../../img/other-skills-img/bash.png";
+import ubuntuImg from "../../img/other-skills-img/Ubuntu.png";
+import windowsImg from "../../img/other-skills-img/windows.png";
+import unityImg from "../../img/other-skills-img/unity.png";
+import vscImg from "../../img/other-skills-img/vscode.png";
+import vsImg from "../../img/other-skills-img/Visual-Studio-logo.png";
+import nbImg from "../../img/other-skills-img/netbeans.png";
+import awsImg from "../../img/other-skills-img/aws.png";
+import dockerImg from "../../img/programming-skills/docker.png";
+import figmaImg from "../../img/other-skills-img/Figma.png";
+import slackImg from "../../img/other-skills-img/Slack.png";
+import githubImg from "../../img/other-skills-img/github_desktop.png";
+
 function Skills() {
   interface Skill {
     name: string;
@@ -7,71 +37,71 @@ function Skills() {
   const frontendSkills: Skill[] = [
     {
       name: "HTML",
-      img: "../../img/programming-skills/HTML5_logo_and_wordmark.svg.png",
+      img: htmlImg,
     },
     {
       name: "CSS",
-      img: "../../img/programming-skills/CSS3_logo_and_wordmark.svg.png",
+      img: cssImg,
     },
     {
       name: "JavaScript",
-      img: "../../img/programming-skills/JavaScript-Logo.png",
+      img: jsImg,
     },
     {
       name: "TypeScript",
-      img: "../../img/programming-skills/Typescript_logo_2020.svg.png",
+      img: tsImg,
     },
-    { name: "Bootstrap", img: "../../img/other-skills-img/Bootstrap_logo.png" },
+    { name: "Bootstrap", img: bstImg },
     {
       name: "Tailwind Css",
-      img: "../../img/programming-skills/Tailwind_CSS_Logo.svg.png",
+      img: tailImg,
     },
-    { name: "React", img: "../../img/programming-skills/React-icon.svg.png" },
+    { name: "React", img: reactImg },
   ];
 
   const backendSkills: Skill[] = [
-    { name: "C#", img: "../../img/programming-skills/Logo_C_sharp.svg.png" },
+    { name: "C#", img: csImg },
     {
       name: "Python",
-      img: "../../img/programming-skills/Python-logo-notext.svg.png",
+      img: pyImg,
     },
-    { name: "Django", img: "../../img/programming-skills/Django-Logo.png" },
+    { name: "Django", img: djImg },
     {
       name: "Node.js",
-      img: "../../img/programming-skills/node-js-logo-png_seeklogo-273749.png",
+      img: nodeImg,
     },
-    { name: "MySQL", img: "../../img/other-skills-img/mysqlworkbench.png" },
+    { name: "MySQL", img: mysqlImg },
   ];
 
   const otherSkills: Skill[] = [
     {
       name: "Java",
-      img: "../../img/programming-skills/java_original_logo_icon_146458.png",
+      img: javaImg,
     },
-    { name: "C++", img: "../../img/programming-skills/ISO_C++_Logo.svg.png" },
-    { name: "C", img: "../../img/programming-skills/C_Logo.png" },
+    { name: "C++", img: cppImg },
+    { name: "C", img: cImg },
     {
       name: "REST APIs",
-      img: "../../img/programming-skills/rest-api-icon.png",
+      img: raImg,
     },
-    { name: "Git", img: "../../img/other-skills-img/git.png" },
-    { name: "Bash", img: "../../img/other-skills-img/bash.png" },
-    { name: "Ubuntu", img: "../../img/other-skills-img/Ubuntu.png" },
-    { name: "Windows", img: "../../img/other-skills-img/windows.png" },
-    { name: "Unity", img: "../../img/other-skills-img/unity.png" },
-    { name: "VS Code", img: "../../img/other-skills-img/vscode.png" },
+    { name: "Git", img: gitImg },
+    { name: "Bash", img: bashImg },
+    { name: "Ubuntu", img: ubuntuImg },
+    { name: "Windows", img: windowsImg },
+    { name: "Unity", img: unityImg },
+    { name: "VS Code", img: vscImg },
     {
       name: "Visual Studio",
-      img: "../../img/other-skills-img/Visual-Studio-logo.png",
+      img: vsImg,
     },
-    { name: "NetBeans", img: "../../img/other-skills-img/netbeans.png" },
-    { name: "AWS", img: "../../img/other-skills-img/aws.png" },
-    { name: "Docker", img: "../../img/programming-skills/docker.png" },
-    { name: "Figma", img: "../../img/other-skills-img/Figma.png" },
-    { name: "Slack", img: "../../img/other-skills-img/Slack.png" },
+    { name: "NetBeans", img: nbImg },
+    { name: "AWS", img: awsImg },
+    { name: "Docker", img: dockerImg },
+    { name: "Figma", img: figmaImg },
+    { name: "Slack", img: slackImg },
     {
       name: "Github Desktop",
-      img: "../../img/other-skills-img/github_desktop.png",
+      img: githubImg,
     },
   ];
 
