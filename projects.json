@@ -1,0 +1,178 @@
+[
+    {
+      "id": 1,
+      "title": "BankSimulator",
+      "description": "A system where you can simulate a basic bank. You can create you account, withdraw and deposit money",
+      "technologies": "C",
+      "link": "https://github.com/NeRrO106/C-Projects/tree/master/BankSimulator",
+      "youtube": "youtube.com"
+    },
+    {
+      "id": 2,
+      "title": "LibraryManager",
+      "description": "A system for managing library books, including adding new books, deleting books, and viewing book details.",
+      "technologies": "C",
+      "link": "https://github.com/NeRrO106/C-Projects/tree/master/LibraryManager",
+      "youtube": "youtube.com"
+    },
+    {
+      "id": 3,
+      "title": "MovieTickets",
+      "description": "A system for managing a cinema, including CRUD movies, CRUD cinema room, you can make reservation, CRUD user system",
+      "technologies": "C",
+      "link": "https://github.com/NeRrO106/weather-app",
+      "youtube": "youtube.com"
+    },
+    {
+        "id": 4,
+        "title": "TextEncryptor",
+        "description": "A system where you can encrypt and decrypt a text",
+        "technologies": "C",
+        "link": "https://github.com/NeRrO106/C-Projects/tree/master/TextEncryptor",
+        "youtube": "youtube.com"
+    },
+    {
+        "id": 5,
+        "title": "RPG-Game",
+        "description": "A basic RPG game using C, you have some enemies and some boost items and you can save the game map",
+        "technologies": "C",
+        "link": "https://github.com/NeRrO106/C-Projects/tree/master/RPG-Game",
+        "youtube": "youtube.com"
+    },
+    {
+        "id": 6,
+        "title": "Guess Number",
+        "description": "A basic project where you have to guess a random number having 3 difficulty levels",
+        "technologies": "C",
+        "link": "https://github.com/NeRrO106/C-Projects/tree/master/GuessNumber",
+        "youtube": "youtube.com"
+    },
+    {
+        "id": 7,
+        "title": "Password Manager",
+        "description": "This project is a simple password manager built in C#. It allows users to securely store and manage their passwords using encryption. Store and manage multiple passwords. Encrypt and decrypt passwords for enhanced security. User-friendly graphical interface for easy management.",
+        "technologies": ["C#", "Windows Forms", ".NET Framework"],
+        "link": "https://github.com/NeRrO106/Password-Manager",
+        "youtube": "youtube.com"
+    },
+    {
+        "id": 8,
+        "title": "Scientific Calculator",
+        "description": "This project is a scientific calculator built in C#. It provides a user-friendly interface for performing a range of mathematical operations, including advanced functions such as trigonometric and logarithmic calculations.",
+        "technologies": ["C#", "Windows Forms", ".NET Framework"],
+        "link": "https://github.com/NeRrO106/Scientific-Calculator",
+        "youtube": "youtube.com"
+    },
+    {
+        "id": 9,
+        "title": "Note Organizer",
+        "description": "This project is a note organizer application built in C#. It allows users to create, edit, and manage notes efficiently with a user-friendly interface.",
+        "technologies": ["C#", "Windows Forms", ".NET Framework"],
+        "link": "https://github.com/NeRrO106/Note-Organizer",
+        "youtube": "youtube.com"
+    },
+    {
+        "id": 10,
+        "title": "BankSimulator",
+        "description": "A system for managing bank accounts, allowing users to create accounts, deposit and withdraw funds, and check account balances.",
+        "technologies": "C++",
+        "link": "https://github.com/NeRrO106/Cpp-Projects/tree/main/BankSimulator",
+        "youtube": "youtube.com"
+    },
+    {
+        "id": 11,
+        "title": "Cinema Manager",
+        "description": "A system for managing a cinema, including CRUD movies, CRUD cinema room, you can make reservation, CRUD user system",
+        "technologies": "C++",
+        "link": "https://github.com/NeRrO106/Cpp-Projects/tree/main/CinemaManager",
+        "youtube": "youtube.com"
+    },
+    {
+        "id": 12,
+        "title": "Library Manager",
+        "description": "A system for managing library books, including adding new books, deleting books, and viewing book details.",
+        "technologies": "C++",
+        "link": "https://github.com/NeRrO106/Cpp-Projects/tree/main/LibraryManager",
+        "youtube": "youtube.com"
+    },
+    {
+        "id": 13,
+        "title":"Guess Number",
+        "description": "A basic game where you have to guess a random number having 3 difficulty levels, The game is created using POO",
+        "technologies": "C++",
+        "link": "https://github.com/NeRrO106/Cpp-Projects/tree/main/GuessNumber",
+        "youtube": "youtube.com"
+    },
+    {
+        "id": 14,
+        "title": "Budget Tracker",
+        "description": "This is a simple Java application that helps you track and manage your personal expenses. The Budget Tracker allows users to add, view, and manage their expenses in a user-friendly way.",
+        "technologies": "Java",
+        "link": "https://github.com/NeRrO106/Java-projects/tree/main/BudgetTracker",
+        "youtube": "youtube.com"
+    },
+    {
+        "id": 15,
+        "title": "Task Manager",
+        "description": "This Java project is a simple Task Manager that allows users to create, manage, and track tasks.",
+        "technologies": "Java",
+        "link": "https://github.com/NeRrO106/Java-projects/tree/main/TaskManagerWithNotification",
+        "youtube": "youtube.com"
+    },
+    {
+        "id": 16,
+        "title": "Trivia",
+        "description": "A basic trivia game where you can add questions and give answers. The game was made using POO",
+        "technologies": "Java",
+        "link": "https://github.com/NeRrO106/Java-projects/tree/main/Trivia",
+        "youtube": "youtube.com"
+    },
+    {
+        "id": 17,
+        "title": "Password Generator",
+        "description": "A simple project that will generate you a random password",
+        "technologies": "Java",
+        "link": "https://github.com/NeRrO106/Java-projects/tree/main/PasswordGenerator",
+        "youtube": "youtube.com"
+    },
+    {
+        "id":22,
+        "title": "Website for Guesthouses (unfinished)",
+        "description": "I have created a website for guesthouses, where users can book rooms for a specific period. I was about to implement an admin panel where rooms can be added and removed, as well as a gallery system for the rooms.",
+        "technologies": ["Frontend", "React", "Bootstrap5", "FirebaseDatabase"],
+        "link": "https://github.com/NeRrO106/Website-Pensiune",
+        "youtube":"youtube.com"
+    },
+    {
+        "id": 20,
+        "title": "Restaurant Website",
+        "description": "I have created a website for a restaurant that includes a digital menu, an ordering system, and an admin panel where orders can be viewed, and products can be added, deleted, or edited.",
+        "technologies": ["FullStack", "React", "HTML5", "CSS3", "Bootstrap5", "Django", "SQL"],
+        "link": ["https://github.com/NeRrO106/ParadoXall", "https://github.com/NeRrO106/ParadoXall-backend"],
+        "youtube":"youtube.com"
+    },
+    {
+        "id": 21,
+        "title": "Restaurant app(unfinished)",
+        "description": "I have created a prototype for a restaurant app that features a digital menu with prices, and includes a login/registration system with password recovery via email. I was about to implement the permissions system and the ordering system.",
+        "technologies": ["FullStack", "React-Native", "Bootstrap5", "NodeJS"],
+        "link": "https://github.com/NeRrO106/Restaurant-App",
+        "youtube":"youtube.com"
+    },
+    {
+        "id": 18,
+        "title": "Maze Runner - Maze Escape",
+        "description": "This project is a maze escape game built using Unity. Players navigate through a maze to find the exit, testing their problem-solving skills and spatial awareness.",
+        "technologies": "Unity",
+        "link": "https://github.com/NeRrO106/Maze-Runner-Maze-Escape",
+        "youtube": "youtube.com"
+    },
+    {
+        "id": 19,
+        "title": "Maze Runner - Laboratory Escape",
+        "description": "This project is a maze escape game developed using Unity. In this game, players navigate through a laboratory-themed maze to find the exit, solving puzzles and avoiding obstacles along the way.",
+        "technologies": "Unity",
+        "link": "https://github.com/NeRrO106/Maze-Runner-Laboratory-Escape",
+        "youtube": "youtube.com"
+    }
+  ]
