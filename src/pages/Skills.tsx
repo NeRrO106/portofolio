@@ -35,128 +35,130 @@ function Skills() {
   }
 
   const frontendSkills: Skill[] = [
-    {
-      name: "HTML",
-      img: htmlImg,
-    },
-    {
-      name: "CSS",
-      img: cssImg,
-    },
-    {
-      name: "JavaScript",
-      img: jsImg,
-    },
-    {
-      name: "TypeScript",
-      img: tsImg,
-    },
+    { name: "HTML", img: htmlImg },
+    { name: "CSS", img: cssImg },
+    { name: "JavaScript", img: jsImg },
+    { name: "TypeScript", img: tsImg },
     { name: "Bootstrap", img: bstImg },
-    {
-      name: "Tailwind Css",
-      img: tailImg,
-    },
+    { name: "Tailwind CSS", img: tailImg },
     { name: "React", img: reactImg },
   ];
 
   const backendSkills: Skill[] = [
     { name: "C#", img: csImg },
-    {
-      name: "Python",
-      img: pyImg,
-    },
+    { name: "Python", img: pyImg },
     { name: "Django", img: djImg },
-    {
-      name: "Node.js",
-      img: nodeImg,
-    },
+    { name: "Node.js", img: nodeImg },
     { name: "MySQL", img: mysqlImg },
   ];
 
   const otherSkills: Skill[] = [
-    {
-      name: "Java",
-      img: javaImg,
-    },
+    { name: "Java", img: javaImg },
     { name: "C++", img: cppImg },
     { name: "C", img: cImg },
-    {
-      name: "REST APIs",
-      img: raImg,
-    },
+    { name: "REST APIs", img: raImg },
     { name: "Git", img: gitImg },
     { name: "Bash", img: bashImg },
     { name: "Ubuntu", img: ubuntuImg },
     { name: "Windows", img: windowsImg },
     { name: "Unity", img: unityImg },
     { name: "VS Code", img: vscImg },
-    {
-      name: "Visual Studio",
-      img: vsImg,
-    },
+    { name: "Visual Studio", img: vsImg },
     { name: "NetBeans", img: nbImg },
     { name: "AWS", img: awsImg },
     { name: "Docker", img: dockerImg },
     { name: "Figma", img: figmaImg },
     { name: "Slack", img: slackImg },
-    {
-      name: "Github Desktop",
-      img: githubImg,
-    },
+    { name: "GitHub Desktop", img: githubImg },
   ];
 
-  const renderSkillCards = (skills: Skill[]) =>
+  const renderSkillCards = (skills: Skill[], accentColor: string) =>
     skills.map((skill) => (
       <div
         key={skill.name}
-        className="flex flex-col items-center bg-gray-800 p-4 rounded-lg shadow-md hover:shadow-xl transition-transform transform hover:-translate-y-1"
+        className="group relative p-6 rounded-2xl bg-slate-800/40 border border-white/5 
+                   hover:border-white/20 transition-all duration-500 overflow-hidden"
       >
-        <img
-          src={skill.img}
-          alt={skill.name}
-          className="w-16 h-16 object-contain mb-2"
+        <div
+          className={`absolute inset-0 opacity-0 group-hover:opacity-10 bg-gradient-to-br ${accentColor} transition-opacity duration-500`}
         />
-        <span className="text-white text-sm text-center">{skill.name}</span>
+
+        <div className="relative z-10">
+          <div className="w-12 h-12 mx-auto mb-4 transition-transform duration-500 group-hover:scale-110 group-hover:rotate-3">
+            <img
+              src={skill.img}
+              alt={skill.name}
+              className="w-full h-full object-contain filter drop-shadow-[0_0_8px_rgba(255,255,255,0.2)]"
+            />
+          </div>
+          <p className="text-center font-bold text-slate-300 group-hover:text-white text-xs tracking-widest uppercase transition-colors">
+            {skill.name}
+          </p>
+        </div>
+        <div
+          className={`absolute bottom-0 left-0 h-[2px] w-0 group-hover:w-full bg-gradient-to-r ${accentColor} transition-all duration-500 shadow-[0_0_15px_rgba(34,211,238,0.5)]`}
+        />
       </div>
     ));
 
   return (
-    <div className="p-8 space-y-12 bg-[var(--color-bg)]">
-      <div className="text-center">
-        <h2 className="text-4xl font-bold mb-8 text-[var(--color-text-secondary)]">
-          Skills
-        </h2>
+    <div className="min-h-screen bg-[#0f172a] text-slate-200">
+      <div className="fixed inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-cyan-500/10 blur-[120px]" />
+        <div className="absolute bottom-[10%] right-[-5%] w-[40%] h-[40%] rounded-full bg-purple-500/10 blur-[120px]" />
       </div>
 
-      <div className="space-y-8">
-        <div>
-          <h3 className="text-2xl font-semibold text-center text-[var(--color-text-secondary)] mb-4">
-            Frontend
-          </h3>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 justify-items-center">
-            {renderSkillCards(frontendSkills)}
-          </div>
+      <div className="relative max-w-6xl mx-auto px-8 py-32">
+        <div className="mb-24 space-y-4 text-center">
+          <h2 className="text-5xl md:text-6xl font-black tracking-tighter text-white">
+            Expertise &{" "}
+            <span className="text-transparent bg-clip-text bg-purple-600 to-blue-600 bg-gradient-to-r">
+              Tools
+            </span>
+          </h2>
+          <p className="text-slate-400 max-w-md mx-auto font-medium leading-relaxed">
+            Technologies I master and enjoy using to build digital products.
+          </p>
         </div>
 
-        <div>
-          <h3 className="text-2xl font-semibold text-center text-[var(--color-text-secondary)] mb-4">
-            Backend
-          </h3>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 justify-items-center">
-            {renderSkillCards(backendSkills)}
-          </div>
-        </div>
-
-        <div>
-          <h3 className="text-2xl font-semibold text-center text-[var(--color-text-secondary)] mb-4">
-            Other Skills
-          </h3>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 justify-items-center">
-            {renderSkillCards(otherSkills)}
-          </div>
+        <div className="space-y-32">
+          <section>
+            <div className="flex items-center gap-6 mb-12">
+              <h3 className="text-xs font-black uppercase tracking-[0.3em] text-cyan-400 whitespace-nowrap">
+                Frontend
+              </h3>
+              <div className="h-[1px] w-full bg-gradient-to-r from-cyan-500/30 to-transparent" />
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+              {renderSkillCards(frontendSkills, "from-cyan-500 to-blue-500")}
+            </div>
+          </section>
+          <section>
+            <div className="flex items-center gap-6 mb-12">
+              <h3 className="text-xs font-black uppercase tracking-[0.3em] text-purple-400 whitespace-nowrap">
+                Backend
+              </h3>
+              <div className="h-[1px] w-full bg-gradient-to-r from-purple-500/30 to-transparent" />
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+              {renderSkillCards(backendSkills, "from-purple-500 to-pink-500")}
+            </div>
+          </section>
+          <section>
+            <div className="flex items-center gap-6 mb-12">
+              <h3 className="text-xs font-black uppercase tracking-[0.3em] text-slate-500 whitespace-nowrap">
+                Workflow
+              </h3>
+              <div className="h-[1px] w-full bg-gradient-to-r from-slate-500/30 to-transparent" />
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+              {renderSkillCards(otherSkills, "from-slate-400 to-slate-600")}
+            </div>
+          </section>
         </div>
       </div>
     </div>
   );
 }
+
 export default Skills;
