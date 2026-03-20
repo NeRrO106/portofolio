@@ -175,7 +175,8 @@
         "technologies": ["React", "HTML", "CSS", "JavaScript", ".NET", "SQLite", "FullStack"],
         "link": [
             "https://github.com/NeRrO106/quick_dish_frontend",
-            "https://github.com/NeRrO106/quick_dish_backend"
+            "https://github.com/NeRrO106/quick_dish_backend",
+            "https://quickdishtest.netlify.app/"
         ],
         "youtube": "youtube.com"
     },

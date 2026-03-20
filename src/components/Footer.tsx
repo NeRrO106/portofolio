@@ -17,8 +17,21 @@ function Footer() {
           <p className="text-slate-500 text-[10px] uppercase tracking-[0.3em] font-medium">
             Engineering & Software Development
           </p>
+          <div className="flex flex-col items-center md:items-start space-y-1 pt-2">
+            <a
+              href="mailto:andrei.cosma0507@gmail.com"
+              className="text-slate-400 hover:text-white transition-colors text-[10px] font-mono tracking-wider"
+            >
+              📧 andrei.cosma0507@gmail.com
+            </a>
+            <a
+              href="tel:+40787531949"
+              className="text-slate-400 hover:text-white transition-colors text-[10px] font-mono tracking-wider"
+            >
+              📞 +40 787531949
+            </a>
+          </div>
         </div>
-
         <nav className="flex items-center space-x-12">
           <a
             href="https://www.linkedin.com/in/andrei-cosma-28b720273/"
@@ -46,7 +59,6 @@ function Footer() {
             <span className="absolute -bottom-1 left-0 w-0 h-px bg-purple-500 transition-all duration-300 group-hover:w-full shadow-[0_0_8px_rgba(168,85,247,0.8)]" />
           </a>
         </nav>
-
         <div className="text-right">
           <span className="text-slate-600 text-[10px] font-mono tracking-widest uppercase">
             &copy; {new Date().getFullYear()} — ANDREI COSMA
